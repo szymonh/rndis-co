@@ -113,6 +113,10 @@ rather slow but still effective.
 
 Linux devices exposing USB RNDIS gadgets may be exploited to extract sensitive information.
 
+## CVE
+
+[CVE-2022-25375](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25375)
+
 ## Patch
 
 - [usb: gadget: rndis: check size of RNDIS_MSG_SET command](https://github.com/torvalds/linux/commit/38ea1eac7d88072bbffb630e2b3db83ca649b826)
